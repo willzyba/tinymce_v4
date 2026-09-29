@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <!--
-  A complete, working example of TinyMCE 4 with the CodeCogs Equation Editor plugin already
-  built into this vendored copy (plugins/eqneditor). No npm install needed - everything here
-  is a static file - just open this in a browser (or serve it, since some browsers block
-  local-file <script> loading of sibling files; `python3 -m http.server` from this directory
-  works fine).
+  TinyMCE 4 with the CodeCogs Equation Editor plugin (plugins/eqneditor in this folder).
+  Replace the licence with your own fxTeX Pro licence key (fx_pk_...), from editor.codecogs.com.
 -->
 <html lang="en">
 <head>
@@ -27,11 +24,8 @@
             toolbar: 'undo redo | bold italic | eqneditor',
             height: 420,
 
-            // Points this dev example at the local eqneditor-v5-www dev server rather than
-            // production, so in-progress features (the new toolbar, MathView-by-default) show
-            // up here before they are live at editor.codecogs.com. Remove both for production.
-            eqneditor_script_url: 'http://localhost:8010/eqneditor.api.min.js',
-            eqneditor_css_url: 'http://localhost:8010/eqneditor.css'
+            eqneditor_server: '{{EQN_SERVER}}',
+            eqneditor_licence: '{{FXTEXPRO_KEY}}'
         });
     </script>
 </head>
