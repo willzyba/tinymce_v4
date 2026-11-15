@@ -10,7 +10,7 @@ editing again.
 This plugin is for sites still running TinyMCE 4. On TinyMCE 6 or 7, use
 [fxEditor for TinyMCE 6 and 7](https://github.com/willzyba/tinymce_v6).
 
-> **TinyMCE is not ours.** This repository is a complete TinyMCE 4 download (version 4.0b2), the
+> **TinyMCE is not ours.** This repository is a complete TinyMCE 4 download (version 4.9.11, the last TinyMCE 4 release), the
 > work of TinyMCE's own authors (today Tiny Technologies, Inc.), under its own licence
 > (the GNU LGPL, version 2.1 - see `license.txt`). It is included unchanged, with the fxEditor
 > plugin added at `plugins/eqneditor/`. Only `plugins/eqneditor/` and `example.html` are
@@ -51,7 +51,7 @@ tinymce.init( {
     plugins: 'eqneditor',
     toolbar: 'undo redo | bold italic | eqneditor',
     eqneditor_server: 'fxtex.codecogs.com',
-    eqneditor_licence: 'your-licence-key',       // from the licence manager - see below
+    eqneditor_licence: 'your-licence-key',       // from fxeditor.codecogs.com/purchase - see below
     eqneditor_design: { colour: '#0f7a4d' }      // optional
 } );
 ```
@@ -75,12 +75,7 @@ your licence key.
 Equations are rendered by fxTeX Pro, which needs a licence key for your domain. Without one,
 equations show the reason they cannot render in place of the maths.
 
-- Get a key at [fxeditor.codecogs.com/purchase](https://fxeditor.codecogs.com/purchase) - paid
-  plans, and a free trial.
-- Teachers and students can have a free individual licence:
-  [fxeditor.codecogs.com/academic](https://fxeditor.codecogs.com/academic).
-- Keys are managed in the [licence manager](https://fxeditor.codecogs.com/login): add the domains
-  your site runs on, and copy the key from there.
+Get your licence key from [fxeditor.codecogs.com/purchase](https://fxeditor.codecogs.com/purchase).
 
 The key goes in the `eqneditor_licence` option of `tinymce.init()`. The full set of options:
 
@@ -96,7 +91,9 @@ The key goes in the `eqneditor_licence` option of `tinymce.init()`. The full set
 
 ## Licence
 
-The fxEditor plugin (`plugins/eqneditor/`) and `example.html` are copyright CodeCogs.
+The fxEditor plugin (`plugins/eqneditor/`) and `example.html` are Copyright (c) 2026
+CodeCogs, Zyba Ltd., released under the MIT licence - see
+[`plugins/eqneditor/LICENSE`](https://github.com/willzyba/tinymce_v4/blob/main/plugins/eqneditor/LICENSE).
 
 TinyMCE - everything else in this repository - is the work of TinyMCE's own authors (today Tiny
 Technologies, Inc.) and is licensed under the GNU Lesser General Public License, version 2.1; see
