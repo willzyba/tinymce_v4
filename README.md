@@ -58,7 +58,7 @@ tinymce.init( {
 } );
 ```
 
-The equation editor itself is fetched from `fxtex.codecogs.com` the first time it is needed, so
+The equation editor itself is fetched from `https://fxtex.codecogs.com` the first time it is needed, so
 you always get the current editor.
 
 MathML needs a stylesheet on the page that displays it. The plugin loads it into the editing area
