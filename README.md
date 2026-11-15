@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/willzyba/tinymce_v4/main/screenshots/icon.png" alt="" width="96" align="right">
+
 # fxEditor for TinyMCE 4
 
 The fxEditor plugin for TinyMCE 4 adds an **fx** button to the editor's toolbar (and an
@@ -84,7 +86,7 @@ The key goes in the `eqneditor_licence` option of `tinymce.init()`. The full set
 | `eqneditor_licence` | | Your fxEditor licence key. Required. |
 | `eqneditor_design` | | The editor's look: dialog width, height and scale, toolbar panels and size, colour, equation and markup sizes, undo/redo, how the dialog opens. Build one in [Customise and download](https://fxplugins.codecogs.com/docs/tinymce4.html#customise). |
 | `eqneditor_server` | `'fxtex.codecogs.com'` | Host the equation editor's own code is loaded from. A bare host means https; a full origin is used as it is. |
-| `eqneditor_render_url` | `'https://latex.codecogs.com'` | The rendering service for equations inserted as images. Point it at a self-hosted fxTeX Server to keep equations inside your network. |
+| `eqneditor_render_url` | `'https://fxtex.codecogs.com'` | The rendering service for equations inserted as images. Point it at a self-hosted fxTeX Server to keep equations inside your network. |
 | `eqneditor_script_url` | from server | Full URL of the equation editor bundle. |
 | `eqneditor_css_url` | from server | Full URL of the equation editor stylesheet. |
 | `eqneditor_mathml_css_url` | from server | The MathML stylesheet loaded into the editing area. |
