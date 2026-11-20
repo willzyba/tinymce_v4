@@ -6,7 +6,7 @@ The fxEditor plugin for TinyMCE 4 adds an **fx** button to the editor's toolbar 
 *Equation...* item to its Insert menu). It opens fxEditor, CodeCogs' equation editor, in a dialog:
 a toolbar of symbols and structures, a rendered maths view to build the equation in, and a LaTeX
 view that stays in step with it. The author chooses how the equation goes in at the cursor - as
-MathML (the default) or as an SVG image - and double-clicking an inserted equation opens it for
+MathML (the default), as an SVG image, or as LaTeX text (`$...$` inline, `$$...$$` on its own line) for [fxTeX](https://fxeditor.codecogs.com/docs/0-fxtex.php) to typeset on the page that shows it - and double-clicking an inserted equation opens it for
 editing again.
 
 This plugin is for sites still running TinyMCE 4. On TinyMCE 6 or 7, use
